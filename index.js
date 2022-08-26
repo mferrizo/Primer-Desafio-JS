@@ -2,8 +2,8 @@
 let ComienzaEn = true
 let intentos = 0
 do{
-    let adivinanza = prompt("Ingrese su usuario para poder multiplicar, solo tiene  3 una chances")
-    if(adivinanza.toLowerCase() == "admin"){
+    let usuario = prompt("Ingrese su usuario para poder multiplicar, solo tiene  3 una chances")
+    if(usuario.toLowerCase() == "admin"){
         console.log("Su respuesta es correcta, puede multiplicar")
         ComienzaEn = false
         setTimeout( function() { window.location.href = "multiplicar.html"; }, 2000 );
